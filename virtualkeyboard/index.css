@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: antiquewhite;
+}
+section.keys{
+display:block;
+justify-content:space-around;
+text-align: center;
+position: relative;
+bottom:50%;
+}
+section.output{
+    text-align: center;
+}
+button{
+    margin:0.5em 0.2em;
+    font-weight: bolder;
+
+}
+button.alpha,.number,.shift,.comma,.dot,.back,.cntrl{
+    padding:1.4em;
+}
+button.enter{
+    padding:1.4em 2.0em;
+}
+button.space{
+    padding:1.4em 7.0em;
+}
+input{
+    width: 40em;
+    height: 3em;
+    margin: 2em;
+    padding:2em;
+    font-size: 1.2em;
+}
+textarea{
+    cursor:auto;
+    width:40em;
+}
